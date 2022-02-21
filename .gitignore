@@ -7,3 +7,6 @@
 
 # Python related stuffs
 __pycache__/
+
+# Database
+*.db

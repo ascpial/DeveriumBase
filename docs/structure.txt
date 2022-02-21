@@ -1,0 +1,29 @@
+main.py -> lancer le bot
+/docs
+    La documentation concernant le projet
+/plugins
+    Les plugins du bot
+    Structure des plugins :
+
+/data
+    Les données relatives à l'exécution du bot
+    configuration.json -> La configuration du bot
+    database.db -> la base de données du bot (SQlite3)
+
+/src
+    Le code source de la partie principale du bot
+
+Idées pour le bot :
+- facile à customiser aussi bien pour l'affichage que pour le fonctionnement
+- les commandes doivent être faciles à enregistrer et il doit y avoir des utilitaires pour se simplifier la vie (comme par exemple des checks d'administration, des aides pour faire des commandes de guild_only, des aides pour faire des commandes selon des permissions...)
+- un système de cache et de création de database facile à utiliser
+- pas de support pour les commandes textuelles
+
+La documentation sera en anglais, ce fichier est juste là à titre de préparation
+
+Roadmap :
+
+- [-] config (with instances all that kind of stuff) (improvable)
+- [-] extensions (improvable)
+- [ ] database
+- [ ] custom command registration system
