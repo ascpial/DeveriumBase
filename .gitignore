@@ -1,0 +1,9 @@
+# Local workspace
+/venv/
+/.vscode/
+
+# Database and configuration
+/data/
+
+# Python related stuffs
+__pycache__/
